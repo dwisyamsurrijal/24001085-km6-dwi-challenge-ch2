@@ -1,0 +1,48 @@
+.section-main {
+  background-color: #f1f3ff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 1.4rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.whyus-card {
+  height: 100%;
+}
+
+.obj {
+  z-index: 0;
+}
+
+.search-car {
+  position: relative;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .search-car {
+    transform: translateY(0%);
+    margin-bottom: 10px;
+    #section-link {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .search-car {
+    transform: translateY(0%);
+    margin-bottom: 40px;
+  }
+}
